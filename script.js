@@ -33,7 +33,7 @@ let handlefoodClick = foodId => {
             <img src="${data.meals[0].strMealThumb}">
             <h1>${data.meals[0].strMeal}</h1>
             <br>
-            <h1>Food Category: ${data.meals[0].strCategory}</h1>
+            <h1>Food Type: ${data.meals[0].strCategory}</h1>
             <br>
             <h2> ${data.meals[0].strMeasure1}</h2>
             <h2> ${data.meals[0].strMeasure2}</h2>
