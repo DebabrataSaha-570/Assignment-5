@@ -20,6 +20,7 @@ search.addEventListener('click', function () {
        
 })
 
+
 let handlefoodClick = foodId => {
     fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${foodId}`)
         .then(res => res.json())
